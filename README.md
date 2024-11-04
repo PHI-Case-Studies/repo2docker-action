@@ -1,33 +1,32 @@
 ![](https://github.com/jupyterhub/repo2docker-action/workflows/Test/badge.svg) [![MLOps](https://img.shields.io/badge/MLOps-black.svg?logo=github&?logoColor=blue)](https://mlops-github.com)
 
+local file
 
 # <a href="https://github.com/jupyterhub/repo2docker"><img src="https://raw.githubusercontent.com/jupyterhub/repo2docker/71eb8058c790a88d223470a55f3ea5b744614dcf/docs/source/_static/images/repo2docker.png" height="40px" /></a>  repo2docker GitHub Action
 
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [  repo2docker GitHub Action](#--repo2docker-github-action)
 - [What Can I Do With This Action?](#what-can-i-do-with-this-action)
 - [API Reference](#api-reference)
-	- [Mandatory Inputs](#mandatory-inputs)
-	- [Optional Inputs](#optional-inputs)
-	- [Outputs](#outputs)
+  - [Optional Inputs](#optional-inputs)
+  - [Outputs](#outputs)
 - [Testing the built image](#testing-the-built-image)
 - [Examples](#examples)
-	- [mybinder.org](#mybinderorg)
-		- [Cache builds on mybinder.org](#cache-builds-on-mybinderorg)
-		- [Cache Builds On mybinder.org And Provide A Link](#cache-builds-on-mybinderorg-and-provide-a-link)
-		- [Use GitHub Actions To Cache The Build For BinderHub](#use-github-actions-to-cache-the-build-for-binderhub)
-	- [Push Repo2Docker Image To DockerHub](#push-repo2docker-image-to-dockerhub)
-	- [Push Repo2Docker Image To quay.io](#push-repo2docker-image-to-quayio)
-	- [Push Repo2Docker Image To Amazon ECR](#push-repo2docker-image-to-amazon-ecr)
-	- [Push Repo2Docker Image To Google Container Registry](#push-repo2docker-image-to-google-container-registry)
-	- [Push Repo2Docker Image To Google Artifact Registry](#push-repo2docker-image-to-google-artifact-registry)
-  	- [Push Repo2Docker Image To GitHub Package Registry](#push-repo2docker-image-to-github-package-registry)
-	- [Push Repo2Docker Image To Azure Container Registry](#push-repo2docker-image-to-azure-container-registry)
-	- [Push Repo2Docker Image To Other Registries](#push-repo2docker-image-to-other-registries)
-	- [Change Image Name](#change-image-name)
-	- [Test Image Build](#test-image-build)
-- [Contributing](#contributing-to-repo2docker-action)
+  - [mybinder.org](#mybinderorg)
+    - [Cache builds on mybinder.org](#cache-builds-on-mybinderorg)
+    - [Cache Builds On mybinder.org And Provide A Link](#cache-builds-on-mybinderorg-and-provide-a-link)
+    - [Use GitHub Actions To Cache The Build For BinderHub](#use-github-actions-to-cache-the-build-for-binderhub)
+  - [Push Repo2Docker Image To DockerHub](#push-repo2docker-image-to-dockerhub)
+  - [Push Repo2Docker Image To quay.io](#push-repo2docker-image-to-quayio)
+  - [Push Repo2Docker Image To Amazon ECR](#push-repo2docker-image-to-amazon-ecr)
+  - [Push Repo2Docker Image To Google Container Registry](#push-repo2docker-image-to-google-container-registry)
+  - [Push Repo2Docker Image To GitHub Package Registry](#push-repo2docker-image-to-github-package-registry)
+  - [Push Repo2Docker Image To Other Registries](#push-repo2docker-image-to-other-registries)
+  - [Change Image Name](#change-image-name)
+  - [Test Image Build](#test-image-build)
+- [Contributing To repo2docker-action](#contributing-to-repo2docker-action)
 
 <!-- /TOC -->
 
